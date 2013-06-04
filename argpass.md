@@ -2,7 +2,7 @@ Argument passing styles in Rebol
 
     Author: Ladislav Mecir
 
-=== Introduction
+### Introduction
 
 Depending on whether the interpreter evaluates arguments or not before passing them to the function called there are several argument passing styles available in Rebol.
 
@@ -10,7 +10,7 @@ This article describes available argument passing styles and shows examples of t
 
 This version of the article describes both the properties of R2 as well as the properties of R3 interpreters.
 
-=== Evaluating argument passing style
+### Evaluating argument passing style
 
 This is the most common argument passing style used in Rebol, both in R2 as well as in R3.
 
@@ -45,7 +45,7 @@ Referential Transparency - a result of an expression can be supplied as an argum
 
 Readability - because this method is standard, every script using this argument passing style is more readable than a script using less usual argument passing style.
 
-=== Literal argument passing style
+### Literal argument passing style
 
 This argument passing style is used in Rebol to pass a loop variable, a variable to the *help* function or to pass a security policy to the *secure* function.
 
@@ -113,7 +113,7 @@ For example, in R3 it is possible to write:
 
 obtaining a help for *print* in this case.
 
-=== Get argument passing style
+### Get argument passing style
 
 This is how the specification looks:
 
